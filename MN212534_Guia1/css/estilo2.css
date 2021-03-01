@@ -1,0 +1,343 @@
+nav[class="menu"]{
+  position: fixed;
+  background-color:rgba(0, 0, 0, 1);
+  top: 0;
+  z-index: 2;
+  width: 99%;
+}
+nav[class="menu"] ul {
+  list-style: none;
+  font-size: 1em;
+  margin-bottom: 0em;
+  margin-left: 14em;
+ }
+nav[class="menu"] li {
+  line-height: 4rem;
+  position: relative;
+}
+nav[class="menu"] ul{
+  display: inline-flex;
+}
+nav[class="menu"] li ul{
+  position: absolute;
+  display: inline-flex;
+}
+
+nav[class="menu"] a{
+  text-decoration: none;
+  display: flex;
+  padding: 0 2.5em;
+  color: white;
+  transition: background 0.4s;
+}
+
+nav[class="menu"] a:hover {
+  color: gold;
+  border-bottom: solid 2px white;
+  line-height: 3.9rem;
+}
+
+.icon{
+  margin-left: 50em;
+}
+/*PRIMER MENU*/
+nav[class="menu"] > ul {
+  background-color: none;
+  display: flex;
+  width: 100%
+}
+body{
+  color:black;
+  margin: 2em;
+  background-color: black
+}
+h1{
+color: white;
+  margin-top: 10%;
+  position: relative;
+  text-align: center;
+  border-bottom: yellow 0.6vw solid;
+  margin-right: 36%;
+  margin-left: 40%;
+}
+#salvador{
+  background-color: white;
+  width: 18em;
+  height: 24em;
+  text-align: center;
+  margin-left: 9em;
+}
+#img1{
+  width: 15em;
+}
+#guate{
+  background-color: white;
+  width: 18em;
+  height: 24em;
+  text-align: center;
+    margin-left:34.2em;
+  margin-top: -25em;
+}
+#img2{
+  width: 15em;
+}
+#honduras{
+  background-color: white;
+  width: 18em;
+  height: 24em;
+  text-align: center;
+  margin-left:58em;
+  margin-top: -25em;
+}
+#img3{
+  width: 15em;
+}
+#nicaragua{
+  background-color: white;
+  width: 18em;
+  height: 24em;
+  text-align: center;
+    margin-left:21em;
+  margin-top: 1em;
+}
+#img4{
+  width: 15em;
+}
+#pana{
+  background-color: white;
+  width: 18em;
+  height: 25em;
+  text-align: center;
+    margin-left:46em;
+  margin-top: -25em;
+}
+#img5{
+  width: 15em;
+}
+#salvador1{
+  background-color: white;
+  width: 20em;
+  height: 26em;
+  text-align: center;
+  margin-left: 9em;
+}
+.img6{
+  width: 15em;
+}
+#guate1{
+  background-color: white;
+  width: 18em;
+  height: 26em;
+  text-align: center;
+    margin-left:32.7em;
+  margin-top: -27em;
+}
+#img7{
+  width: 15em;
+}
+#honduras1{
+  background-color: white;
+  width: 18em;
+  height: 28em;
+  text-align: center;
+  margin-left:56em;
+  margin-top: -25.2em;
+}
+#img8{
+  width: 15em;
+}
+#nicaragua1{
+  background-color: white;
+  width: 18em;
+  height: 28em;
+  text-align: center;
+    margin-left:32.7em;
+  margin-top: 2em;
+}
+#img9{
+  width: 15em;
+}
+footer{
+  margin-left: 31em;
+  color:white;
+  height: 1em;
+  margin-top: 2em;
+}
+#tabla1{
+  text-align: center;
+  color: black;
+  margin-left: 35em;
+  margin-top: -12em;
+}
+#salvador2{
+  background-color: white;
+  width: 18em;
+  height: 29em;
+text-align: center;
+  margin-left: 7em;
+}
+#img10{
+  width: 15em;
+}
+#guate2{
+  background-color: white;
+  width: 23em;
+  height:31em;
+  text-align: center;
+    margin-left:30.2em;
+  margin-top: -30em;
+}
+#img11{
+  width: 15em;
+}
+#honduras2{
+  background-color: white;
+  width: 18em;
+  height: 34em;
+  text-align: center;
+  margin-left:58em;
+  margin-top: -32.2em;
+}
+#img12{
+  width: 15em;
+}
+#nicaragua2{
+  background-color: white;
+  width: 18em;
+  height: 29.5em;
+  text-align: center;
+    margin-left:32.7em;
+  margin-top: -2em;
+}
+#img13{
+  width: 15em;
+}
+#salvador3{
+  background-color: white;
+  width: 18em;
+  height: 29em;
+text-align: center;
+  margin-left: 7em;
+}
+#img14{
+  width: 15em;
+}
+#guate3{
+  background-color: white;
+  width: 26em;
+  height:30em;
+  text-align: center;
+    margin-left:28.5em;
+  margin-top: -30em;
+}
+#img15{
+  width: 15em;
+}
+#honduras3{
+  background-color: white;
+  width: 18em;
+  height: 30em;
+  text-align: center;
+  margin-left:58em;
+  margin-top: -31.3em;
+}
+#img16{
+  width: 15em;
+}
+#nicaragua3{
+  background-color: white;
+  width: 18em;
+  height: 31em;
+  text-align: center;
+    margin-left:32.7em;
+  margin-top: 3em;
+}
+#img17{
+  width: 15em;
+}
+#salvador4{
+  background-color: white;
+  width: 18em;
+  height: 29em;
+text-align: center;
+  margin-left: 7em;
+}
+#img18{
+  width: 15em;
+}
+#guate4{
+  background-color: white;
+  width: 18em;
+  height:30em;
+  text-align: center;
+    margin-left:32.6em;
+  margin-top: -30.4em;
+}
+#img19{
+  width: 15em;
+}
+#honduras4{
+  background-color: white;
+  width: 18em;
+  height: 30em;
+  text-align: center;
+  margin-left:58em;
+  margin-top: -31.3em;
+}
+#img20{
+  width: 15em;
+}
+#nicaragua4{
+  background-color: white;
+  width: 18em;
+  height: 31em;
+  text-align: center;
+    margin-left:32.7em;
+  margin-top: 3em;
+}
+#img21{
+  width: 15em;
+}
+#salvador5{
+  background-color: white;
+  width: 18em;
+  height: 29em;
+text-align: center;
+  margin-left: 7em;
+}
+#img22{
+  width: 15em;
+}
+#guate5{
+  background-color: white;
+  width: 18em;
+  height:32em;
+  text-align: center;
+    margin-left:32.6em;
+  margin-top: -30.4em;
+}
+#img23{
+  width: 15em;
+}
+#honduras5{
+  background-color: white;
+  width: 18em;
+  height: 32em;
+  text-align: center;
+  margin-left:58em;
+  margin-top: -33.3em;
+}
+#img24{
+  width: 15em;
+}
+#nicaragua5{
+  background-color: white;
+  width: 18em;
+  height: 20em;
+  text-align: center;
+    margin-left:32.7em;
+  margin-top: 3em;
+}
+#img25{
+  width: 15em;
+}
